@@ -69,8 +69,8 @@ nav a:hover {
     height: 100%;
     background-image: url('https://cdn.rekordbox.com/home-2022/v10/img/2022/home/hero/hero-scene1_sp.png');
     background-repeat: no-repeat;
-    background-size: ;
-    opacity: 1.0;
+    background-size: cover;
+    opacity: 0.2;
     z-index: -1;
     
 }
