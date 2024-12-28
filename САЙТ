@@ -1,48 +1,184 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Заголовок страницы</title>
-    <link rel="stylesheet" href="./styles/style.css">
-
-    <meta property="og:title" content="Заголовок страницы в OG">
-    <meta property="og:description" content="Описание страницы в OG">
-    <meta property="og:image" content="https://example.com/image.jpg">
-    <meta property="og:url" content="https://example.com/">
-  </head>
-  <body>
+    <title>EV.Drive - The Future of Electric Vehicles</title>
+    <link rel="stylesheet" href="style.css"> <!-- Placeholder for your CSS link -->
+</head>
+<body>
     <header>
-      <h1>Личный сайт</h1>
-      <p>Который сделан на основе готового шаблона</p>
-      <nav>
-        <ul>
-          <li><a href="index.html">Эта страница</a></li>
-          <li><a href="catalog.html">Другая страница</a></li>
-        </ul>
-      </nav>
+        <div class="container">
+            <div class="logo">EV.Drive</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Models</a>
+                <a href="#">Technology</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="contact-button">
+                <a href="Комлев Кирилл Сергеевич</a>
+            </div>
+        </div>
     </header>
-    <main>
-      <article>
-        <section>
-          <h2>Первая секция</h2>
-          <p>Она обо мне</p>
-          <img src="images/image.png" alt="Человек и пароход">
-          <p>Но может быть и о семантике, я пока не решил.</p>
-        </section>
-        <section>
-          <h2>Вторая секция</h2>
-          <p>Она тоже обо мне</p>
-        </section>
-        <section>
-          <h2>И третья</h2>
-          <p>Вы уже должны были начать догадываться.</p>
-        </section>
-      </article>
-    </main>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Experience the Future of Driving</h1>
+            <p>Explore the power, innovation, and sustainability of electric vehicles.</p>
+            <button>View Models &gt;</button>
+        </div>
+    </section>
+
+    <section class="electric-advantage">
+        <div class="container">
+        <h2>The Electric Advantage</h2>
+           <div class="advantage-list">
+                <div class="advantage-item">
+                    <img src="icon-zero-emission.png" alt="Zero Emission Icon"> <!--Placeholder icon-->
+                   <p>Drive into the future with zero-emission technology.</p>
+                </div>
+                  <div class="advantage-item">
+                      <img src="icon-performance.png" alt="Performance Icon"> <!--Placeholder icon-->
+                   <p>Experience superior performance and instant torque.</p>
+                </div>
+                  <div class="advantage-item">
+                      <img src="icon-sustainability.png" alt="Sustainability Icon"> <!--Placeholder icon-->
+                  <p>Embrace sustainability and reduce your carbon footprint.</p>
+                </div>
+                   <div class="advantage-item">
+                       <img src="icon-connectivity.png" alt="Connectivity Icon"> <!--Placeholder icon-->
+                  <p>Enjoy advanced technology and seamless connectivity.</p>
+                   </div>
+                   <div class="advantage-item">
+                       <img src="icon-cost-savings.png" alt="Cost Savings Icon"> <!--Placeholder icon-->
+                    <p>Benefit from reduced running and maintenance costs.</p>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+
+     <section class="featured-models">
+        <h2>Our Latest EV Models</h2>
+        <div class="carousel-container">
+            <div class="model-card">
+                <img src="model-1.jpg" alt="Model 1 Image"> <!-- Placeholder for actual model image -->
+                <h3>Model X</h3>
+                 <button class="zoom-button">+</button>
+
+            </div>
+             <div class="model-card">
+                <img src="model-2.jpg" alt="Model 2 Image"> <!-- Placeholder for actual model image -->
+                 <h3>Model Y</h3>
+                 <button class="zoom-button">+</button>
+            </div>
+             <div class="model-card">
+                 <img src="model-3.jpg" alt="Model 3 Image"> <!-- Placeholder for actual model image -->
+                 <h3>Model Z</h3>
+                 <button class="zoom-button">+</button>
+            </div>
+        </div>
+    </section>
+
+     <section class="electric-performance">
+         <h2>Electric Performance</h2>
+         <div class="performance-container">
+             <div class="performance-card">
+                  <h2>300+</h2>
+                 <p>Mile Range</p>
+             </div>
+             <div class="performance-card">
+                  <h2>80 kWh</h2>
+                 <p>Battery Capacity</p>
+             </div>
+             <div class="performance-card">
+                  <h2>4 Hours</h2>
+                <p>Charging Time</p>
+             </div>
+             <div class="performance-card">
+                  <h2>3.5 Sec</h2>
+                 <p>0-60 mph</p>
+             </div>
+        </div>
+    </section>
+
+        <section class="ev-benefits">
+            <div class="container">
+             <h2>Electric Vehicle Benefits</h2>
+                  <div class="benefit-list">
+                       <div class="benefit-item">
+                            <img src="icon-emissions.png" alt="Emissions icon"> <!-- Placeholder icon-->
+                           <p>Reduced Emissions and cleaner air.</p>
+                       </div>
+                        <div class="benefit-item">
+                              <img src="icon-quieter.png" alt="Quieter icon"> <!-- Placeholder icon-->
+                             <p>Quieter Driving Experience.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <img src="icon-cost.png" alt="Cost icon"> <!-- Placeholder icon-->
+                           <p>Lower running costs.</p>
+                        </div>
+                           <div class="benefit-item">
+                                <img src="icon-tax.png" alt="Tax icon"> <!-- Placeholder icon-->
+                               <p>Federal and State tax incentives.</p>
+                          </div>
+                          <div class="benefit-item">
+                               <img src="icon-tech.png" alt="Technology icon"> <!-- Placeholder icon-->
+                              <p>Cutting edge technology.</p>
+                        </div>
+                    </div>
+                <div class="video-carousel">
+                    <div class="video-card"> <img src="video-1.jpg" alt="Video 1 thumbnail"></div>
+                     <div class="video-card"> <img src="video-2.jpg" alt="Video 2 thumbnail"></div>
+                     <div class="video-card"> <img src="video-3.jpg" alt="Video 3 thumbnail"></div>
+                 </div>
+             </div>
+    </section>
+
+
+    <section class="future-electric">
+        <h2>The Future is Electric</h2>
+        <div class="progress-container">
+            <div class="progress-circle">
+                <div class="progress-percent">90%</div>
+                <p>EV Adoption</p>
+            </div>
+             <div class="progress-circle">
+                  <div class="progress-percent">95%</div>
+                 <p>Tech Integration</p>
+            </div>
+             <div class="progress-circle">
+                 <div class="progress-percent">85%</div>
+                 <p>Renewable Energy</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <form action="#" method="post">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button>Submit</button>
+            </form>
+            <div class="contact-info">
+                <p>Phone: <a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+                <p>Email: <a href="mailto:info@evdrive.com">info@evdrive.com</a></p>
+                <p>Address: 123 Electric Avenue, City, State, ZIP</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
-      <p>Сюда бы я вписал информацию об авторе и ссылки на другие сайты</p>
+        <div class="container">
+            <p>&copy; 2024 EV.Drive</p>
+        </div>
     </footer>
-    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
-  </body>
+
+    <script src="script.js"></script>  <!-- Placeholder for your JS link-->
+</body>
 </html>
